@@ -22,14 +22,14 @@ The **Student Management System** is a web-based application designed to manage 
 ---
 
 ## 📂 Project Structure 
-``` StudentManagementSystem/ 
-      ├── frontend/ 
-          ├── index.html 
-          ├── css/ 
-          └── js/
-      ├── backend/ 
-          ├── database/        
-      └── README.md ```
+StudentManagementSystem/
+├── frontend/
+│ ├── index.html
+│ ├── css/
+│ └── js/
+├── backend/
+│ └── database/
+└── README.md
 
 
 ---
