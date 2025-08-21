@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manage Students</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Student Management</h1>
+    <nav>
+      <a href="index.html">Home</a> | 
+      <a href="teachers.html">Teachers</a> | 
+      <a href="courses.html">Courses</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Add Student</h2>
+    <form>
+      <label>Name:</label>
+      <input type="text" placeholder="Enter name" required><br><br>
+      
+      <label>Email:</label>
+      <input type="email" placeholder="Enter email" required><br><br>
+      
+      <label>Date of Birth:</label>
+      <input type="date" required><br><br>
+      
+      <label>Course:</label>
+      <input type="text" placeholder="Enter course"><br><br>
+      
+      <button type="submit">Add Student</button>
+    </form>
+
+    <h2>Student List</h2>
+    <table border="1" cellpadding="5">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>DOB</th>
+        <th>Course</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Rahul Sharma</td>
+        <td>rahul@example.com</td>
+        <td>2002-05-15</td>
+        <td>Computer Science</td>
+      </tr>
+    </table>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 School Management System</p>
+  </footer>
+</body>
+</html>
